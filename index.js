@@ -19,3 +19,6 @@ client.addListener('message' + public_channel, function (from, message) {
   console.log(from + ' => ' + public_channel  + message);
   client.say(private_channel, '<' + from + '>: ' + message);
 });
+client.addListener('error', function(message) {
+  console.log('error: ', message);
+});
