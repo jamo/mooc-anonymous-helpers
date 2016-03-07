@@ -3,7 +3,7 @@ var irc = require('irc');
 
 var public_channel = '#mooc.fi';
 var private_channel = '#mooc.fi-anonymous-helpers';
-var client = new irc.Client('irc.nebula.fi', 'SLH', {
+var client = new irc.Client('irc.stealth.net', 'SLH', {
   channels: [public_channel, private_channel],
   userName: 'Santas Little Helper',
   realName: 'Santas Little Helper',
