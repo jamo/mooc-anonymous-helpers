@@ -1,0 +1,9 @@
+{
+  "name": "mooc-irc-anonymizer",
+  "version": "0.0.1",
+  "description": "Bridge and anonymize irc channels",
+  "dependencies": {
+    "irc": "^0.3.12",
+    "strftime": "^0.9.2"
+  }
+}
